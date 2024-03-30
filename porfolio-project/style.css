@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+/* nav bar*/
+.left {
+  font-size: 1.5rem;
+  margin: 4px;
+  display: flex;
+  gap: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li :hover {
+  color: rgb(153, 153, 206);
+  font-size: 1.02rem;
+}
+
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: poppins;
+  
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  background-color: rgb(31, 31, 96, 1);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+}
+
+nav ul li {
+  margin: 0 23px;
+ 
+}
+.right li button {
+  background-color: rgb(130, 236, 100);
+  height: 2rem;
+  width: 8rem;
+  color: rgb(255, 255, 255);
+}
+.btn {
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 7px;
+}
+/* profile section */
+#profile-section {
+  height: 80vh;
+  width: 50wh;
+ 
+  margin: 38px 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* .profile-section div{
+    width: 100%; 
+} */
+.left-section {
+  /* background-color: red; */
+  width: 70%;
+  height: 60vh;
+  padding: 20px;
+  font-size: 3rem;
+  margin: 0 30px;
+}
+.right-section {
+  /* background-color: red;  */
+  width: 30%;
+}
+.right-section img {
+  max-height: 45vh;
+  max-width: 50vw;
+  border-radius: 20%;
+  border: 7px solid white;
+
+  -webkit-box-shadow: 0px 0px 176px 26px rgba(224, 255, 46, 0.42);
+  -moz-box-shadow: 0px 0px 176px 26px rgba(224, 255, 46, 0.42);
+  box-shadow: 0px 0px 176px 26px rgba(255, 255, 255, 0.42);
+}
+
+.purple {
+  color: #e5cf1c;
+}
+#element{
+  color: #e5cf1c;
+}
+
+#social {
+  margin: 80px 20px;
+ 
+}
+
+#social button {
+  height: 2.5rem;
+  width: 11rem;
+  border-radius: 10px;
+  font-size: large;
+  background-color: rgb(31, 31, 96, 1);
+  color: white;
+  border: none;
+  
+}
+.link{
+  display: flex;
+  
+}
+main hr {
+  margin: 40px 80px;
+  height: 1.2px;
+  background: rgb(43, 226, 70);
+}
+.text-grey {
+  color: rgb(155, 155, 228);
+}
+
+#first-section {
+  /* background-color: chartreuse;*/
+  max-width: 89vw;
+  max-height: 232vh;
+  margin: auto;
+ 
+}
+
+.project {
+  font-size: 2.4rem;
+}
+.project-grid {
+  /* background-color: chocolate;*/
+  margin: 30px 0;
+
+  display: grid;
+  grid-template-columns: 22.2vw 22.2vw 22.2vw 22.2vw;
+  grid-template-rows: 22.2vw 22.2vw;
+}
+.project-grid a {
+  border-radius: 6%;
+
+  margin: 10px 10px;
+  text-decoration: none;
+  background-color: white;
+}
+
+.image {
+  background-color: red;
+  height: 70%;
+  border-top-left-radius: 6%;
+  border-top-right-radius: 6%;
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 6%;
+  border-top-right-radius: 6%;
+}
+
+.info {
+  height: 30%;
+  /*background-color: aqua;*/
+ margin: 0 10px;
+}
+.info span {
+  margin: 17px 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: black;
+}
+.info .tech {
+  margin: 10px 10px;
+  color: black;
+}
+
+/*second section*/
+
+.second-section{
+ 
+  max-width: 89vw;
+  max-height: 232vh;
+  margin: auto;
+}
+.skill{
+  background-color: rgb(64, 64, 159);
+  max-width: 89vw;
+  max-height: 232vh;
+  margin: auto;
+}
+/*about section*/
+#information{
+ height: 90vh;
+ width: 90vw;
+ margin: auto;
+ display: flex;
+ justify-content: space-around;
+
+}
+.box1{
+  align-content: center;
+  width: 34vw;
+}
+.box1 button{
+  margin: 20px;
+}
+.box2{
+  width: 40vw;
+  align-content: center;
+}
+.box1 h2{
+   margin: 10px 0;
+}
+.box1 h1{
+  font-size: 8rem;
+}
+.box2 label{
+  font-size: 1.2rem;
+}
+
+
+/*footer dection*/
+footer{
+
+  height: 60vh;
+  position: relative;
+  
+ 
+}
+.logos{
+   margin-bottom: 30px; 
+   position: absolute;
+   top: 0;
+}
+.follows{
+  height: 4vh;
+  width: 15vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0px;
+  
+}
+.footer-first{
+  align-content: center;
+  position: relative;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 110px;
+  margin-bottom: 60px;
+  padding: 5vh;
+  color: white;
+ 
+}
+.footer ul li {
+  list-style-type: none;
+  
+}
+.footer ul li a{
+  color: white;
+  text-decoration: none;
+}
+footer ul li{
+  margin: 20px 20px;
+}
+.font-bold{
+  font-weight: 600;
+  font-size: larger;
+}
+footer > hr{
+  margin: 10px 80px;
+  color: gray;
+}
+.end{
+  
+ text-align: center;
+ font-size: small;
+ color: rgb(252, 212, 212);
+ bottom: 0;
+ margin:10px 30px;
+ padding: 30px;
+
+}
